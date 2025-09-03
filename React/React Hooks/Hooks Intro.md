@@ -9,3 +9,10 @@
 ### State:
 
 - A state is a special variable inside a component that can change over time and the component re-renders to show the updated value.
+
+
+## React Hooks
+
+
+#### “useState is a React Hook that lets you add and manage state (dynamic values) inside functional components, and re-renders the UI whenever the state changes.”
+
