@@ -11,7 +11,7 @@
 
 <img width="1275" height="259" alt="image" src="https://github.com/user-attachments/assets/e304ee2e-b1cf-406a-886f-2717dfa2c353" />
 
-```react
+```tsx
 import React, { useReducer } from "react";
 
 // 1. Define the reducer function
