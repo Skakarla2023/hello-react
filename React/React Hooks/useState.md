@@ -5,10 +5,6 @@
 👉 Before hooks, only class components could have state. Functional components were “stateless.”
 useState solved this limitation.
 
-## 🔹 Why is it used?
-
-- We use useState when we want a component to remember values across re-renders.
-
 ## 🔹 Purpose of useState
 
 1. To make functional components interactive
@@ -39,4 +35,23 @@ function MyFunction() {
 }
 
 export default MyFunction;
+```
+
+
+### 🔹 Why is it used?
+
+We use useState when we want a component to remember values across re-renders.
+
+#### Example:
+
+Counter value
+
+Form input text
+
+Toggle button (on/off)
+
+API data storage
+
+```
+Without state, the UI would never update based on user actions.
 ```
