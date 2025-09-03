@@ -17,3 +17,5 @@
 #### “useState is a React Hook that lets you add and manage state (dynamic values) inside functional components, and re-renders the UI whenever the state changes.”
 
 #### “useEffect is a React Hook that lets you run side effects (like data fetching or DOM updates) in functional components, with a dependency array controlling when the effect should run.”
+
+#### "useContext is a React hook that lets functional components directly access shared context data, avoiding prop drilling."
