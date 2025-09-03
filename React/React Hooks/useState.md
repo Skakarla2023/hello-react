@@ -55,3 +55,27 @@ API data storage
 ```
 Without state, the UI would never update based on user actions.
 ```
+
+
+
+
+
+
+### 🔹 Benefits of useState
+
+##### ✅ Makes functional components stateful (no need for class components)
+##### ✅ Cleaner and simpler than this.state in classes
+##### ✅ Can handle any data type (string, number, object, array)
+##### ✅ Works with multiple state variables in one component
+##### ✅ Encourages separation of concerns (manage each piece of state independently)
+##### ✅ Supports lazy initialization (optimizing expensive operations)
+
+
+
+
+
+<img width="1522" height="550" alt="image" src="https://github.com/user-attachments/assets/61bfae16-bf4b-495f-8b1b-5a4a07a43896" />
+
+<img width="1527" height="560" alt="image" src="https://github.com/user-attachments/assets/802204ff-9cda-4b1e-b70c-e2fc4d7d39c7" />
+
+<img width="1519" height="252" alt="image" src="https://github.com/user-attachments/assets/ab6516ab-4e14-4539-987e-a949414e2fad" />
