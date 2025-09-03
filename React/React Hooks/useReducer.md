@@ -11,3 +11,33 @@
 
 <img width="1275" height="259" alt="image" src="https://github.com/user-attachments/assets/e304ee2e-b1cf-406a-886f-2717dfa2c353" />
 
+```react
+import React, { useReducer } from "react";
+
+// 1. Define the reducer function
+const reducer = (state, action) => {
+  switch (action.type) {
+    case "INCREMENT":
+      return { count: state.count + 1 };
+    case "DECREMENT":
+      return { count: state.count - 1 };
+    default:
+      return state;
+  }
+};
+
+function Counter() {
+  // 2. useReducer takes reducer and initial state
+  const [state, dispatch] = useReducer(reducer, { count: 0 });
+
+  return (
+    <div style={{ textAlign: "center", marginTop: "50px" }}>
+      <h1>Count: {state.count}</h1>
+      <button onClick={() => dispatch({ type: "INCREMENT" })}>+</button>
+      <button onClick={() => dispatch({ type: "DECREMENT" })}>-</button>
+    </div>
+  );
+}
+
+export default Counter;
+```
