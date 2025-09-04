@@ -28,3 +28,4 @@ export default function Count() {
 ### Benefits/uses of State Management
 
 <img width="1180" height="185" alt="image" src="https://github.com/user-attachments/assets/9a142346-ff9d-4412-b726-20c8302725c1" />
+
