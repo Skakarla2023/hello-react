@@ -32,4 +32,4 @@
 2. Code duplication – developers wrote the same UI logic many times.
 3. Spaghetti code – UI logic, data, and events got mixed up.
 4. Hard state management – handling changes across multiple components was confusing.
-5. Poor performance – every small change caused the whole page to reload or re-render.
+5. Poor performance – every small change caused the whole page to reload or re-render. 
